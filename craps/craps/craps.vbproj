@@ -96,6 +96,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -113,6 +116,27 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Craps Table Lg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\die1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\die2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\die3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\die4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\die5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\die6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

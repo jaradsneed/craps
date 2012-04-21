@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class frmMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,9 +22,59 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.imgDie1 = New System.Windows.Forms.PictureBox()
+        Me.imgDie2 = New System.Windows.Forms.PictureBox()
+        Me.btnRoll = New System.Windows.Forms.Button()
+        CType(Me.imgDie1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imgDie2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'imgDie1
+        '
+        Me.imgDie1.Image = Global.craps.My.Resources.Resources.die1
+        Me.imgDie1.Location = New System.Drawing.Point(855, 12)
+        Me.imgDie1.Name = "imgDie1"
+        Me.imgDie1.Size = New System.Drawing.Size(60, 60)
+        Me.imgDie1.TabIndex = 0
+        Me.imgDie1.TabStop = False
+        '
+        'imgDie2
+        '
+        Me.imgDie2.Image = Global.craps.My.Resources.Resources.die1
+        Me.imgDie2.Location = New System.Drawing.Point(940, 12)
+        Me.imgDie2.Name = "imgDie2"
+        Me.imgDie2.Size = New System.Drawing.Size(60, 60)
+        Me.imgDie2.TabIndex = 1
+        Me.imgDie2.TabStop = False
+        '
+        'btnRoll
+        '
+        Me.btnRoll.Location = New System.Drawing.Point(1024, 32)
+        Me.btnRoll.Name = "btnRoll"
+        Me.btnRoll.Size = New System.Drawing.Size(75, 23)
+        Me.btnRoll.TabIndex = 2
+        Me.btnRoll.Text = "Roll"
+        Me.btnRoll.UseVisualStyleBackColor = True
+        '
+        'frmMain
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Text = "Form1"
+        Me.BackgroundImage = Global.craps.My.Resources.Resources.crapsBG
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(1175, 649)
+        Me.Controls.Add(Me.btnRoll)
+        Me.Controls.Add(Me.imgDie2)
+        Me.Controls.Add(Me.imgDie1)
+        Me.Name = "frmMain"
+        Me.Text = "Craps"
+        CType(Me.imgDie1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imgDie2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
     End Sub
+    Friend WithEvents imgDie1 As System.Windows.Forms.PictureBox
+    Friend WithEvents imgDie2 As System.Windows.Forms.PictureBox
+    Friend WithEvents btnRoll As System.Windows.Forms.Button
 
 End Class
