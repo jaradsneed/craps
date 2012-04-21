@@ -1,0 +1,15 @@
+C:\Users\Sneed\craps\craps\bin\Release\craps.exe.manifest
+C:\Users\Sneed\craps\craps\bin\Release\craps.application
+C:\Users\Sneed\craps\craps\bin\Release\craps.exe
+C:\Users\Sneed\craps\craps\bin\Release\craps.pdb
+C:\Users\Sneed\craps\craps\bin\Release\craps.xml
+C:\Users\Sneed\craps\craps\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Sneed\craps\craps\obj\x86\Release\craps.frmMain.resources
+C:\Users\Sneed\craps\craps\obj\x86\Release\craps.Resources.resources
+C:\Users\Sneed\craps\craps\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Sneed\craps\craps\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Sneed\craps\craps\obj\x86\Release\craps.exe.manifest
+C:\Users\Sneed\craps\craps\obj\x86\Release\craps.application
+C:\Users\Sneed\craps\craps\obj\x86\Release\craps.exe
+C:\Users\Sneed\craps\craps\obj\x86\Release\craps.xml
+C:\Users\Sneed\craps\craps\obj\x86\Release\craps.pdb

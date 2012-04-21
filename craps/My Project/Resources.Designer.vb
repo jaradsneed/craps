@@ -67,6 +67,15 @@ Namespace My.Resources
             End Get
         End Property
         
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend ReadOnly Property diceRolls() As String
+            Get
+                Return ResourceManager.GetString("diceRolls", resourceCulture)
+            End Get
+        End Property
+        
         Friend ReadOnly Property die1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("die1", resourceCulture)
@@ -106,6 +115,15 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("die6", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend ReadOnly Property dieTotals() As String
+            Get
+                Return ResourceManager.GetString("dieTotals", resourceCulture)
             End Get
         End Property
     End Module

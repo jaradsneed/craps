@@ -25,6 +25,8 @@ Partial Class frmMain
         Me.imgDie1 = New System.Windows.Forms.PictureBox()
         Me.imgDie2 = New System.Windows.Forms.PictureBox()
         Me.btnRoll = New System.Windows.Forms.Button()
+        Me.lblDiceRoll = New System.Windows.Forms.Label()
+        Me.lblTotal = New System.Windows.Forms.Label()
         CType(Me.imgDie1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.imgDie2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -56,6 +58,23 @@ Partial Class frmMain
         Me.btnRoll.Text = "Roll"
         Me.btnRoll.UseVisualStyleBackColor = True
         '
+        'lblDiceRoll
+        '
+        Me.lblDiceRoll.AutoSize = True
+        Me.lblDiceRoll.Location = New System.Drawing.Point(788, 12)
+        Me.lblDiceRoll.Name = "lblDiceRoll"
+        Me.lblDiceRoll.Size = New System.Drawing.Size(0, 13)
+        Me.lblDiceRoll.TabIndex = 3
+        '
+        'lblTotal
+        '
+        Me.lblTotal.AutoSize = True
+        Me.lblTotal.Location = New System.Drawing.Point(791, 58)
+        Me.lblTotal.Name = "lblTotal"
+        Me.lblTotal.Size = New System.Drawing.Size(0, 13)
+        Me.lblTotal.TabIndex = 4
+        Me.lblTotal.Visible = False
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -63,6 +82,8 @@ Partial Class frmMain
         Me.BackgroundImage = Global.craps.My.Resources.Resources.crapsBG
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1175, 649)
+        Me.Controls.Add(Me.lblTotal)
+        Me.Controls.Add(Me.lblDiceRoll)
         Me.Controls.Add(Me.btnRoll)
         Me.Controls.Add(Me.imgDie2)
         Me.Controls.Add(Me.imgDie1)
@@ -71,10 +92,13 @@ Partial Class frmMain
         CType(Me.imgDie1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.imgDie2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents imgDie1 As System.Windows.Forms.PictureBox
     Friend WithEvents imgDie2 As System.Windows.Forms.PictureBox
     Friend WithEvents btnRoll As System.Windows.Forms.Button
+    Friend WithEvents lblDiceRoll As System.Windows.Forms.Label
+    Friend WithEvents lblTotal As System.Windows.Forms.Label
 
 End Class
