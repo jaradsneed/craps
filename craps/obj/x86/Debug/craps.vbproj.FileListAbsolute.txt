@@ -1,0 +1,11 @@
+C:\Users\Sneed\craps\craps\craps\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Sneed\craps\craps\craps\obj\x86\Debug\craps.frmMain.resources
+C:\Users\Sneed\craps\craps\craps\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Sneed\craps\craps\craps\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Sneed\craps\craps\craps\bin\Debug\craps.exe
+C:\Users\Sneed\craps\craps\craps\bin\Debug\craps.pdb
+C:\Users\Sneed\craps\craps\craps\bin\Debug\craps.xml
+C:\Users\Sneed\craps\craps\craps\obj\x86\Debug\craps.Resources.resources
+C:\Users\Sneed\craps\craps\craps\obj\x86\Debug\craps.exe
+C:\Users\Sneed\craps\craps\craps\obj\x86\Debug\craps.xml
+C:\Users\Sneed\craps\craps\craps\obj\x86\Debug\craps.pdb
